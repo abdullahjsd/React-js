@@ -2,30 +2,29 @@ import Navbar from './components/Navbar';
 import User from './components/user';
 
 
+
 import './App.css';
 
 function App() {
-
+    
   return (
-    <div className="App">
-      
-    <div className="container mt-4">
-      <Navbar title="user app"/>
+    <div className="App container mt-4">
+      <Navbar title=" Navbar app"/>
       <hr/>
-
       <User
-      name = "Abdullah"
-      salary="5000"
-      department ="bilişim"
+      ad = " Abdullah"
+      soyad =" SAZAN"
+      maaş= " 5000"
+      />
+      <hr/>
+      <User
+      ad = " hasan"
+      soyad =" SAZAN"
+      maaş= " 5000"
       
       />
-        <User
-      name = "hazel"
-      salary="5000"
-      department ="bilişim"
-      
-      />
-    </div>
+    
+     
     
 
 
